@@ -1,4 +1,4 @@
-// Import and filter country boundaries for Sudan
+// Import and filter country boundaries for Kenya
 var dataset = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017');
 var KenyaBorder = dataset.filter(ee.Filter.eq('country_na', 'Kenya'));
 
